@@ -4,7 +4,7 @@
 //remove_action( 'genesis_entry_header', 'genesis_post_info', 12 );
 
 
-/** Customize the post info function */
+// Customize the post info function
 add_filter( 'genesis_post_info', 'post_info_filter' );
 function post_info_filter($post_info) {
 $post_info = '[format_post_time] by [post_author_posts_link] [post_comments] [post_edit]';
