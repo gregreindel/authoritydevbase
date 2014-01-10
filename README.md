@@ -11,33 +11,33 @@ Starter theme for Genesis Famework.
 
 
 <ul>
-<li>Support For Native WordPress Customizer
+<li>support for native WordPress Customizer
 	<ul>
-	<li>Change favicon</li>
-	<li>Add custom header image or logo</li>
-	<li>Add back to top text with smooth scroll</li>
-	<li>Change color and background image - enables backstretch.js to fit background images to the area</li>
-	<li>Enable sticky header - stays on the top during scroll</li>
-	<li>Set static or widgitized front page</li>
+	<li>change favicon</li>
+	<li>add custom header image or logo</li>
+	<li>add back to top text with smooth scroll</li>
+	<li>change color and background image - enables backstretch.js to fit background images to the area</li>
+	<li>enable sticky header - stays on the top during scroll</li>
+	<li>set static or widgitized front page</li>
 	</ul>
 </li>
-<li>Editor Styles</li>
-<li>Uses <a href="https://github.com/serbanghita/Mobile-Detect">mobile detect php class</a> to add body class and create js variable about which device is in use - isMobile, isTablet, isDesktop.</li>
-<li>Clean Nav Menu Item Classes
+<li>editor styles</li>
+<li>used mobile-detect php class to add body class and create js variable about which device is in use - isMobile, isTablet, isDesktop.</li>
+<li>clean nav menu item classes
 	<ul>
-	<li>Reduce to current-menu-item, menu-item</li>
-	<li>Rename ID to post-slug</li>
+	<li>reduce to current-menu-item, menu-item</li>
+	<li>rename ID to post-slug</li>
 	</ul>
 </li>
-<li>Homepage Widgets
+<li>homepage widgets
     <ul>
-    <li>Home Featured Full</li>
-    <li>Middle Halves</li>
-    <li>Home Middle Thirds</li>
-    <li>Home Bottom Full</li>
+    <li>home featured full</li>
+    <li>home middle halves</li>
+    <li>home middle thirds</li>
+    <li>home bottom full</li>
     </ul>
 </li>
-<li>Added Body Classes
+<li>added body classes
     <ul>
     <li>header-logo (if the header image is specifically a logo)</li>
     <li>isTablet (if the browsing device is a tablet)</li>
@@ -45,7 +45,7 @@ Starter theme for Genesis Famework.
     <li>isDesktop (if the browsing device is a desktop)</li>
     </ul>
 </li>
-<li>Added Post Classes
+<li>Added post classes
     <ul>
     <li>post-even (even posts)</li>
     <li>post-odd (odd posts)</li>
@@ -85,6 +85,37 @@ Page Templates
     </ul>
 </li>
 </ul>
+
+
+
+
+<ul>
+<li>functions.php & authoritydevbase_child_functions.php
+    <ul>
+    <li>define child theme name, url, version</li>
+    <li>set content Width</li>
+    <li>includes core theme files</li>
+    <li>enables editor styles </li>
+    <li>sets translations directory</li>
+    <li>custom Favicon</li>
+    <li>load & localize custom scripts</li>
+    <li>remove version from script output</li>
+    <li>adds theme support
+        <ul>
+        <li>genesis structural wraps</li>
+        <li>post formats</li>
+        <li>custom header</li>
+        <li>custom background</li>
+        <li>automatic feed links</li>
+        <li>post thumbnails</li>
+        <li>genesis style selector</li>
+        <li>genesis footer widgets</li>
+        </ul>
+    </li>
+    </ul>
+</li>
+</ul>
+
 
 
 Change Log:
