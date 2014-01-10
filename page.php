@@ -1,0 +1,4 @@
+<?php
+
+// Go time
+genesis();
